@@ -17,6 +17,55 @@
     <link rel="stylesheet" href='./styles/fonts/montserrat.css'>
     <link rel="stylesheet" href='./styles/css/index.css'>
   </head>
-  <body>
+  <body id="home">
+  <div class="icon-bar">
+        <div class="icon-line"></div>
+        <img src="./styles/img/logo.png">
+        <a href="#home">Home<i class="fa fa-home"></i></a>
+        <a href="#contact">Contact<i class="fa fa-phone"></i></a>
+        <a href="#informations">Informations<i class="fa fa-users"></i></a>
+        <a href="#projects">Projects<i class="fa fa-file-text"></i></a>
+  </div>
+  <div class="main">
+    <div class="discord">
+      <div class="discordbox">
+        <img class="banner" src="./styles/img/banner.gif">
+        <img class="logo" src="./styles/img/lubau.png">
+          <div class="badgets">
+            <a href="https://www.instagram.com/thelubau/"><i class="fa fa-instagram"></i></a>
+            <a href="https://dsc.gg/lub"><i  class="fab fa-discord"></i></a>
+            <a href="https://github.com/MrLubau"><i class="fa fa-github"></i></a>
+          </div>
+          <div class="about">
+            <a class="user">Lubau<span>#8161</span></a>
+            <hr>
+             <a class="abouttext">„Smysl života nemáme hledat ve svých úspěších, ale spíš v tom, čeho chceme dosáhnout.“</a>
+             <a  id="contact" class="author">- Chalíl Džibrán</a>
+          </div>
+      </div> 
+    </div>
+    <div class="contact">
+      <li><div class="contactbox"><div><img src="./styles/img/mail.png"><a>G-Mail</a><p>MrLubau@gmail.com</p></div></div></li>
+      <li><div class="contactbox"><div><img class="pointer" src="./styles/img/discord.png" onclick="window.open('https://dsc.gg/lub');"><a>Discord</a><p>Lubau#8161</p></div></div></li>
+      <li><div class="contactbox"><div><img class="pointer" src="./styles/img/instagram.png"onclick="window.open('https://www.instagram.com/thelubau/');"><a>Instagram</a><p  id="informations">@thelubau</p></div></div></li>
+    </div>
+    <div class="informations">
+      <a class="infotext">HTML</a>
+      <li><div class="container"><div class="skills html"><a>95%</a></div></div></li>
+      <a class="infotext">CSS</a>
+      <li><div class="container"><div class="skills css"><a>99%</a></div></div></li>
+      <a class="infotext">JS/NodeJS</a>
+      <li><div class="container"><div class="skills js"><a id="projects">20%</a></div></div></li>
+    </div>
+    <div class="projects">
+      <li><div class="projectbox pointer" onclick="window.open('https://hype-play.cz');"><div><img src="./styles/img/projects/hype.png"><a>Hype-Play</a><p>Jedná se projekt veřejného Minecraftového serveru na který se můžeš napojit i Ty!</p><h1>Status: <span class="active">Aktivní</span></h1><h2>Projekt najdeš zde!</h2></div></div></li>
+      <li><div class="projectbox pointer" onclick="window.open('https://dsc.gg/lub');"><div><img src="./styles/img/projects/discord.png"><a>Mini-Lub</a><p>Jedná se projekt mého vlastního discord bota. V tuto chvíli je bot nedostupný!</p><h1>Status: <span class="suspended">Pozastaven</span></h1><h2>Projekt najdeš zde!</h2></div></div></li>
+      <li><div class="projectbox blocked"><div><img src="./styles/img/projects/gea.png"><a>?????</a><p>V tuto chvíli se jedná o tajný projekt!</p><h1>Status: <span class="disabled">Neznámí</span></h1><h2>Již brzy!</h2></div></div></li>
+    </div>
+    <div class="footer">
+      <a>© Copyright | MrLubau 2022</a>
+    </div>
+  </div>
   </body>
+
 </html>
