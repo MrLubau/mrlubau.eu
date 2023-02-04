@@ -27,3 +27,5 @@ const hiddenpro2 = document.querySelectorAll('.hiddenpro2');
 hiddenpro2.forEach((el) => observer.observe(el));
 const hiddenpro3 = document.querySelectorAll('.hiddenpro3');
 hiddenpro3.forEach((el) => observer.observe(el));
+const hiddenpro4 = document.querySelectorAll('.hiddenpro4');
+hiddenpro4.forEach((el) => observer.observe(el));

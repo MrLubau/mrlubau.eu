@@ -1224,6 +1224,104 @@ body {
 }
 
 
+@media only screen and (max-width: 700px) {
+  
+
+  .icon-bar {
+    background-color: #1d1d1d00;
+    height: 0%;
+    z-index: 0;
+    position: fixed;
+    margin-right: 0px;
+    transition: 0ms;
+    font-size: 0px;
+}
+
+.icon-bar:hover {
+    position: fixed;
+    margin-right: 0px;
+    transition: 0ms;
+    font-size: 0px;
+  }
+
+  .icon-bar a {
+    position: relative;
+    top: 0%;
+    margin-left: 0px;
+    display: block;
+    text-align: right;
+    padding: 0px;
+    transition: 0s;
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #1d1d1d00;
+  }
+
+  .icon-bar i {
+    color: rgba(255, 255, 255, 0);
+    transition: color 0s ease 0s;
+    transition: 0s;
+    padding: 0px 0px;
+    font-size: 0px;
+    transition: 0s;
+  }
+
+  .icon-bar a:hover i {
+    color: #2288fd00;
+  }
+
+  .icon-bar:hover a {
+    position: relative;
+    margin-left: 0px;
+    color: rgba(255, 255, 255, 0);
+
+    background-image: linear-gradient(to right,#0adbc600, #2288fd00);
+    background-size: 0% 0%;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:rgba(255, 255, 255, 0);
+    font-size:0px;
+    transition: color 0s ease 0s;
+    transition: 0s;
+  }
+
+  .icon-bar a:hover {
+    color: #0000;
+    transition: color 0s ease 0s;
+    transition: 0s;
+  }
+
+.icon-bar img {
+  height: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  -webkit-transform: scale(0);
+	transform: scale(0);
+  transition: 0s;
+  
+}
+
+.icon-bar:hover img  {
+  -webkit-transform: scale(0);
+	transform: scale(0);
+  transition: 0s;
+}
+
+
+
+  .icon-line {
+    background-image: linear-gradient(rgb(34, 136, 253, 0));
+    height: 0%;
+    width: 0%;
+    position: absolute;
+    margin-left: 0%
+  }
+
+
+}
+
 
 
 
@@ -1613,15 +1711,22 @@ body {
 .hiddenpro2 {
   opacity: 0;
   transform: translateX(-10%);
-  transition: all 1s;
+  transition: 1s;
   transition-delay: 100ms;
 }
 
 .hiddenpro3 {
   opacity: 0;
   transform: translateX(-10%);
-  transition: all 1s;
+  transition: 1s;
   transition-delay: 200ms;
+}
+
+.hiddenpro4 {
+  opacity: 0;
+  transform: translateX(-10%);
+  transition: 1s;
+  transition-delay: 300ms;
 }
 
 .show {
