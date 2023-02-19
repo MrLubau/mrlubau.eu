@@ -49,7 +49,7 @@ body {
   }
 
   .icon-bar a:hover i {
-    color: #2288FD;
+    color: #000000;
   }
 
   .icon-bar:hover a {
@@ -57,7 +57,7 @@ body {
     margin-left: 0px;
     color: white;
 
-    background-image: linear-gradient(to right,#0ADBC6, #2288FD);
+    background-image: linear-gradient(to right,#00B09B, #000000);
     background-size: 80% 80%;
     background-clip: text;
     -webkit-background-clip:text;
@@ -94,7 +94,7 @@ body {
 
 
   .icon-line {
-    background-image: linear-gradient(#0ADBC6, #2288FD);
+    background-image: linear-gradient(#00B09B, #000000);
     height: 100%;
     width: 1%;
     position: absolute;
@@ -110,11 +110,11 @@ body {
   }
    
   ::-webkit-scrollbar-thumb {
-    background: #0ADBC6;
+    background: #00B09B;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #00a090;
+    background: #008374;
   }
 
   ::-webkit-scrollbar-thumb:active {
@@ -141,7 +141,7 @@ body {
   margin-right: auto;
   position: relative;
   top: 50px;
-  background-image: linear-gradient(#0ADBC6, #2288FD);
+  background-image: linear-gradient(#00B09B, #000000);
   padding: 4px;
   width: 900px;
   border-radius: 15px;
@@ -171,7 +171,7 @@ body {
   height: 180px;
   left: -300px;
   top: -90px;
-  background-color: #204654;
+  background-color: #1A3431;
   border-radius: 50%;
   padding: 10px;
   -webkit-transform: scale(1);
@@ -261,7 +261,7 @@ body {
 }
 
 .badgets i:hover {
-  background-image: linear-gradient(to right, #0ADBC6, #2288FD);
+  background-image: linear-gradient(to right, #00B09B, #000000);
   background-size: 80% 80%;
   background-clip: text;
   -webkit-background-clip:text;
@@ -295,7 +295,7 @@ body {
   position: relative;
   top: 15px;
   left: 35px;
-  text-shadow: 0px 0px 20px #0ab1db;
+  text-shadow: 0px 0px 20px #00B09B;
 }
 
 .user span {
@@ -388,7 +388,7 @@ body {
   margin-right: auto;
   position: relative;
   top: 200px;
-  background-image: linear-gradient(#0ADBC6, #2288FD);
+  background-image: linear-gradient(#00B09B, #000000);
   padding: 4px;
   width: 300px;
   border-radius: 15px;
@@ -418,7 +418,7 @@ body {
   text-align: center;
   font-size: 30px;
   font-weight: 600;
-  text-shadow: 0px 0px 20px #0ab1db;
+  text-shadow: 0px 0px 20px #00B09B;
 }
 
 .contactbox img {
@@ -474,9 +474,9 @@ body {
   top: 350px;
 }
 
-.html {background-image: linear-gradient(to right,#0ADBC6, #2288FD);background-size: 100% 100%;width: 95%;}
-.css {background-image: linear-gradient(to right,#0ADBC6, #2288FD);background-size: 100% 100%;width: 99%;}
-.js {background-image: linear-gradient(to right,#0ADBC6, #2288FD);background-size: 1000% 1000%;width: 20%;}
+.html {background-image: linear-gradient(to right,#00B09B, #000000);background-size: 100% 100%;width: 95%;}
+.css {background-image: linear-gradient(to right,#00B09B, #000000);background-size: 100% 100%;width: 99%;}
+.js {background-image: linear-gradient(to right,#00B09B, #000000);background-size: 1000% 1000%;width: 20%;}
 
 
 .informations li {
@@ -551,7 +551,7 @@ body {
   margin-right: auto;
   position: relative;
   top: 200px;
-  background-image: linear-gradient(#0ADBC6, #2288FD);
+  background-image: linear-gradient(#00B09B, #000000);
   padding: 4px;
   width: 500px;
   border-radius: 15px;
@@ -581,7 +581,7 @@ body {
   position: relative;
   top: 20px;
   border-radius: 15px;
-  box-shadow: 0px 0px 20px #0ab1db ;
+  box-shadow: 0px 0px 20px #00B09B;
 }
 
 .projectbox div a {
@@ -593,7 +593,7 @@ body {
   position: relative;
   top: 50px;
   color: white;
-  text-shadow: 0px 0px 20px #0ab1db;
+  text-shadow: 0px 0px 20px #00B09B;
   font-family: Montserrat;
   font-weight: 600;
   font-size: 35px;
@@ -684,7 +684,11 @@ body {
 }
 
 
-
+.gif {
+  position: relative;
+  height: 50px;
+  top: 5px;
+}
 
 
 
@@ -733,7 +737,6 @@ body {
   margin-right: auto;
   position: relative;
   top: 50px;
-  background-image: linear-gradient(#0ADBC6, #2288FD);
   padding: 4px;
   width: 700px;
   border-radius: 15px;
@@ -742,7 +745,6 @@ body {
 }
 
 .discordbox {
-  background-color: #242424be;
   border-radius: 15px;
   height: 800px;
 }
@@ -755,7 +757,6 @@ body {
   height: 180px;
   left: -230px;
   top: -90px;
-  background-color: #204654;
   border-radius: 50%;
   padding: 10px;
   -webkit-transform: scale(1);
@@ -776,8 +777,6 @@ body {
 }
 
 .dscbutton {
-  background-color: #28994c;
-  color: white;
   border-width: 0;
   height: 50px;
   width: 200px;
@@ -793,12 +792,10 @@ body {
 }
 
 .dscbutton:hover {
-  background-color: #215B32;
   transition: 300ms;
 }
 
 .badgets {
-  background-color: rgba(0, 0, 0, 0.418);
   height: 50px;
   width: 200px;
   position: relative;
@@ -809,7 +806,6 @@ body {
 }
 
 .badgets i {
-  color: white;
   position: relative;
   top: 2px;
   text-align: center;
@@ -821,16 +817,13 @@ body {
 }
 
 .badgets i:hover {
-  background-image: linear-gradient(to right, #0ADBC6, #2288FD);
   background-size: 80% 80%;
   background-clip: text;
   -webkit-background-clip:text;
-  color: transparent;
   transition: 0.5s;
 }
 
 .about {
-  background-color: rgba(0, 0, 0, 0.418);
   height: 420px;
   width: 645px;
   position: relative;
@@ -841,17 +834,14 @@ body {
 
 .user {
   font-family: Montserrat;
-  color: white;
   font-weight: 600;
   font-size: 30px;
   position: relative;
   top: 15px;
   left: 35px;
-  text-shadow: 0px 0px 20px #0ab1db;
 }
 
 .user span {
-  color: rgb(182, 182, 182);
   font-weight: 400;
 }
 
@@ -860,7 +850,6 @@ body {
   top: 30px;
   height:1px;
   border-width:0;
-  background-color:rgb(126, 119, 119);
   width: 93%;
   display: block;
   margin-left: auto;
@@ -868,7 +857,6 @@ body {
 }
 
 .status {
-  color: rgb(212, 212, 212);
   font-family: Montserrat;
   position: relative;
   display: block;
@@ -880,7 +868,6 @@ body {
 }
 
 .omne {
-  color: rgb(255, 255, 255);
   font-family: Montserrat;
   position: relative;
   display: block;
@@ -897,7 +884,6 @@ body {
 }
 
 .omnetext {
-  color: rgb(196, 196, 196);
   font-family: Montserrat;
   position: relative;
   display: block;
@@ -909,7 +895,6 @@ body {
 }
 
 .omnetext span {
-  color: #02A2E1;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -930,7 +915,6 @@ body {
     width: 100px;
     position: relative;
     left: -150px;
-    color: white;
     font-family: Montserrat;
     display: block;
     margin-left: auto;
@@ -958,16 +942,13 @@ body {
   margin-right: auto;
   position: relative;
   top: 50px;
-  background-image: linear-gradient(#0ADBC6, #2288FD);
   padding: 4px;
   width: 500px;
   border-radius: 15px;
   height: 808px;
-  box-shadow: 12px 12px 10px 0px #00000075;
 }
 
 .discordbox {
-  background-color: #242424be;
   border-radius: 15px;
   height: 800px;
 }
@@ -980,7 +961,6 @@ body {
   height: 180px;
   left: 0px;
   top: -90px;
-  background-color: #204654;
   border-radius: 50%;
   padding: 10px;
   -webkit-transform: scale(1);
@@ -1001,8 +981,6 @@ body {
 }
 
 .dscbutton {
-  background-color: #28994c;
-  color: white;
   border-width: 0;
   height: 50px;
   width: 200px;
@@ -1021,12 +999,10 @@ body {
 }
 
 .dscbutton:hover {
-  background-color: #215B32;
   transition: 300ms;
 }
 
 .badgets {
-  background-color: rgba(0, 0, 0, 0.418);
   height: 50px;
   width: 200px;
   position: relative;
@@ -1040,7 +1016,6 @@ body {
 }
 
 .badgets i {
-  color: white;
   position: relative;
   top: 2px;
   text-align: center;
@@ -1052,16 +1027,13 @@ body {
 }
 
 .badgets i:hover {
-  background-image: linear-gradient(to right, #0ADBC6, #2288FD);
   background-size: 80% 80%;
   background-clip: text;
   -webkit-background-clip:text;
-  color: transparent;
   transition: 0.5s;
 }
 
 .about {
-  background-color: rgba(0, 0, 0, 0.418);
   height: 355px;
   width: 460px;
   position: relative;
@@ -1072,17 +1044,14 @@ body {
 
 .user {
   font-family: Montserrat;
-  color: white;
   font-weight: 600;
   font-size: 30px;
   position: relative;
   top: 15px;
   left: 35px;
-  text-shadow: 0px 0px 20px #0ab1db;
 }
 
 .user span {
-  color: rgb(182, 182, 182);
   font-weight: 400;
 }
 
@@ -1091,7 +1060,6 @@ body {
   top: 30px;
   height:1px;
   border-width:0;
-  background-color:rgb(126, 119, 119);
   width: 93%;
   display: block;
   margin-left: auto;
@@ -1099,26 +1067,22 @@ body {
 }
 
 .status {
-  color: rgb(212, 212, 212);
   font-family: Montserrat;
   position: relative;
   display: block;
   margin-top: 25px;
   font-size: 20px;
   left: 35px;
-  text-shadow: 4px 4px 5px #272727;
   width: 450px;
 }
 
 .omne {
-  color: rgb(255, 255, 255);
   font-family: Montserrat;
   position: relative;
   display: block;
   margin-top: 60px;
   font-size: 17px;
   left: 35px;
-  text-shadow: 4px 4px 5px #272727;
   font-weight: bold;
 }
 
@@ -1128,19 +1092,16 @@ body {
 }
 
 .omnetext {
-  color: rgb(196, 196, 196);
   font-family: Montserrat;
   position: relative;
   display: block;
   margin-top: 2px;
   font-size: 17px;
   left: 35px;
-  text-shadow: 4px 4px 5px #272727;
   font-weight: 400;
 }
 
 .omnetext span {
-  color: #02A2E1;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -1157,7 +1118,6 @@ body {
     width: 100px;
     position: relative;
     left: -150px;
-    color: white;
     font-family: Montserrat;
     display: block;
     margin-left: auto;
@@ -1186,7 +1146,6 @@ body {
     width: 100px;
     position: relative;
     left: -150px;
-    color: white;
     font-family: Montserrat;
     display: block;
     margin-left: auto;
@@ -1194,30 +1153,20 @@ body {
   }
 
   .icon-bar i {
-    color: white;
-    transition: color 0.5s ease 0s;
     transition: 0.5s;
     padding: 10px 20px;
     font-size: 15px;
     transition: 0.5s;
   }
 
-  .icon-bar a:hover i {
-    color: #2288FD;
-  }
-
   .icon-bar:hover a {
     position: relative;
     margin-left: 0px;
-    color: white;
 
-    background-image: linear-gradient(to right,#0ADBC6, #2288FD);
     background-size: 80% 80%;
     background-clip: text;
     -webkit-background-clip:text;
-    color:white;
     font-size:15px;
-    transition: color 0.5s ease 0s;
     transition: 0.5s;
   }
 
@@ -1228,7 +1177,6 @@ body {
   
 
   .icon-bar {
-    background-color: #1d1d1d00;
     height: 0%;
     z-index: 0;
     position: fixed;
@@ -1254,40 +1202,27 @@ body {
     transition: 0s;
     text-decoration: none;
     font-family: Montserrat;
-    color: #1d1d1d00;
   }
 
   .icon-bar i {
-    color: rgba(255, 255, 255, 0);
-    transition: color 0s ease 0s;
     transition: 0s;
     padding: 0px 0px;
     font-size: 0px;
     transition: 0s;
   }
 
-  .icon-bar a:hover i {
-    color: #2288fd00;
-  }
-
   .icon-bar:hover a {
     position: relative;
     margin-left: 0px;
-    color: rgba(255, 255, 255, 0);
 
-    background-image: linear-gradient(to right,#0adbc600, #2288fd00);
     background-size: 0% 0%;
     background-clip: text;
     -webkit-background-clip:text;
-    color:rgba(255, 255, 255, 0);
     font-size:0px;
-    transition: color 0s ease 0s;
     transition: 0s;
   }
 
   .icon-bar a:hover {
-    color: #0000;
-    transition: color 0s ease 0s;
     transition: 0s;
   }
 
@@ -1312,7 +1247,6 @@ body {
 
 
   .icon-line {
-    background-image: linear-gradient(rgb(34, 136, 253, 0));
     height: 0%;
     width: 0%;
     position: absolute;
@@ -1334,16 +1268,13 @@ body {
     margin-right: auto;
     position: relative;
     top: 50px;
-    background-image: linear-gradient(#0ADBC6, #2288FD);
     padding: 4px;
     width: 400px;
     border-radius: 15px;
     height: 808px;
-    box-shadow: 12px 12px 10px 0px #00000075;
   }
   
   .discordbox {
-    background-color: #242424be;
     border-radius: 15px;
     height: 800px;
   }
@@ -1356,7 +1287,6 @@ body {
     height: 180px;
     left: 0px;
     top: -90px;
-    background-color: #204654;
     border-radius: 50%;
     padding: 10px;
     -webkit-transform: scale(1);
@@ -1377,8 +1307,6 @@ body {
   }
   
   .dscbutton {
-    background-color: #28994c;
-    color: white;
     border-width: 0;
     height: 50px;
     width: 200px;
@@ -1397,12 +1325,10 @@ body {
   }
   
   .dscbutton:hover {
-    background-color: #215B32;
     transition: 300ms;
   }
   
   .badgets {
-    background-color: rgba(0, 0, 0, 0.418);
     height: 50px;
     width: 200px;
     position: relative;
@@ -1416,7 +1342,6 @@ body {
   }
   
   .badgets i {
-    color: white;
     position: relative;
     top: 2px;
     text-align: center;
@@ -1428,16 +1353,13 @@ body {
   }
   
   .badgets i:hover {
-    background-image: linear-gradient(to right, #0ADBC6, #2288FD);
     background-size: 80% 80%;
     background-clip: text;
     -webkit-background-clip:text;
-    color: transparent;
     transition: 0.5s;
   }
   
   .about {
-    background-color: rgba(0, 0, 0, 0.418);
     height: 395px;
     width: 365px;
     position: relative;
@@ -1448,17 +1370,14 @@ body {
   
   .user {
     font-family: Montserrat;
-    color: white;
     font-weight: 600;
     font-size: 30px;
     position: relative;
     top: 15px;
     left: 35px;
-    text-shadow: 0px 0px 20px #0ab1db;
   }
   
   .user span {
-    color: rgb(182, 182, 182);
     font-weight: 400;
   }
   
@@ -1467,7 +1386,6 @@ body {
     top: 30px;
     height:1px;
     border-width:0;
-    background-color:rgb(126, 119, 119);
     width: 93%;
     display: block;
     margin-left: auto;
@@ -1475,26 +1393,22 @@ body {
   }
   
   .status {
-    color: rgb(212, 212, 212);
     font-family: Montserrat;
     position: relative;
     display: block;
     margin-top: 25px;
     font-size: 20px;
     left: 35px;
-    text-shadow: 4px 4px 5px #272727;
     width: 320px;
   }
   
   .omne {
-    color: rgb(255, 255, 255);
     font-family: Montserrat;
     position: relative;
     display: block;
     margin-top: 60px;
     font-size: 17px;
     left: 25px;
-    text-shadow: 4px 4px 5px #272727;
     font-weight: bold;
   }
   
@@ -1504,19 +1418,16 @@ body {
   }
   
   .omnetext {
-    color: rgb(196, 196, 196);
     font-family: Montserrat;
     position: relative;
     display: block;
     margin-top: 2px;
     font-size: 17px;
     left: 25px;
-    text-shadow: 4px 4px 5px #272727;
     font-weight: 400;
   }
   
   .omnetext span {
-    color: #02A2E1;
     cursor: pointer;
     transition: 0.5s;
   }
@@ -1537,7 +1448,6 @@ body {
     width: 100px;
     position: relative;
     left: -100px;
-    color: white;
     font-family: Montserrat;
     display: block;
     margin-left: auto;
@@ -1581,13 +1491,11 @@ body {
   margin-right: auto;
   position: relative;
   top: 200px;
-  background-image: linear-gradient(#0ADBC6, #2288FD);
   padding: 4px;
   width: 300px;
   border-radius: 15px;
   height: 558px;
   transition: 0.5s;
-  box-shadow: 12px 12px 10px 0px #00000075;
 }
 
 .projectbox:hover {
@@ -1596,7 +1504,6 @@ body {
 }
 
 .projectbox div {
-  background-color: #242424be;
   border-radius: 15px;
   height: 550px;
 }
@@ -1611,7 +1518,6 @@ body {
   position: relative;
   top: 20px;
   border-radius: 15px;
-  box-shadow: 0px 0px 20px #0ab1db ;
 }
 
 .projectbox div a {
@@ -1622,8 +1528,6 @@ body {
   margin-right: auto;
   position: relative;
   top: 50px;
-  color: white;
-  text-shadow: 0px 0px 20px #0ab1db;
   font-family: Montserrat;
   font-weight: 600;
   font-size: 30px;
@@ -1637,12 +1541,10 @@ body {
   margin-right: auto;
   position: relative;
   top: 80px;
-  color: rgb(224, 224, 224);
   font-family: Montserrat;
   font-weight: 400;
   font-size: 18px;
   max-width: 450px;
-  text-shadow: 4px 4px 5px #272727;
 }
 
 .projectbox div h1 {
@@ -1653,11 +1555,9 @@ body {
   margin-right: auto;
   position: relative;
   top: 100px;
-  color: rgb(209, 209, 209);
   font-family: Montserrat;
   font-size: 22px;
   font-weight: 500;
-  text-shadow: 4px 4px 5px #272727;
 }
 
 .projectbox div h2 {
@@ -1668,7 +1568,6 @@ body {
   margin-right: auto;
   position: relative;
   top: 110px;
-  color: rgb(158, 158, 158);
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
